@@ -16,7 +16,7 @@ body {
 }
 
 header { 
-    background-color: #525c5a; 
+    background-color:#525c5a; 
     padding: 10vh; 
 }
 
@@ -26,19 +26,17 @@ header {
     flex-wrap: wrap; 
 }
 
-.menu-header > li {
-    margin-left: 20px; 
-}
-
 .menu-header > li > a {
     color: #bade57; 
     text-decoration: none;
-}
-
-.menu-header > li > a:hover { 
-    color: rgb(81, 81, 228);
-    transition: 0.8s;
-}
+ }
+ .menu-header > li > a:hover { 
+     color: #8ccc81;
+     transition: 0.8s;
+ }
+ .menu-header > li {
+     margin-left: 20px; 
+ }
 
 .container {
     position: absolute;
@@ -49,27 +47,27 @@ header {
     text-align: center;
 }
 
-.container > h1 {
-    font-size: 2.5rem;
+.container div h1 {
+    font-size: 2rem;
     color: rgba(0, 0, 0, 0.712);
-    margin-bottom: 2rem;
+    margin-top: 8rem;
 }
 
-.container > label {
-    font-size: 1.2rem;
+.container div label {
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
-.container > input {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
+.container div input {
+    font-size: 1.rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
 }
 
-.container > button {
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
-    border-radius: 50px;
+.container div button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
     cursor: pointer;
     border-color: rgb(19, 153, 108); 
     color: white;
@@ -127,6 +125,7 @@ header {
 #credit-form input{
     font-size: 1.4rem;
 }
+
 
 @media screen and (max-width: 767px) {
     .menu-header {
