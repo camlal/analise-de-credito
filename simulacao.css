@@ -10,7 +10,7 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg,#bade57 8.33%,#8ccc81 100%);
+    background: linear-gradient(180deg,#56877d 8.33%, #bade57 100%);
     background-size: cover;
     background-position: center;
 }
@@ -72,7 +72,7 @@ header {
     border-radius: 50px;
     cursor: pointer;
     border-color: rgb(19, 153, 108); 
-    color: #bade57;
+    color: white;
     transition: background-color 0.5s, border-color 0.5s, color 0.5s;
 }
 
@@ -90,6 +90,43 @@ header {
     margin-bottom: 0.5rem;
 }
 
+#credit-form button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #525c5a;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#credit-form button:hover {
+    background-color: #56877d;
+}
+
+
+#result {
+    margin-top: 2rem;
+}
+
+#result h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#result p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#credit-form label{
+    font-size: 1.5rem;
+}
+
+#credit-form input{
+    font-size: 1.4rem;
+}
 
 @media screen and (max-width: 767px) {
     .menu-header {
