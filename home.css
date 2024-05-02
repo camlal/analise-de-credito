@@ -38,7 +38,6 @@ header {
     padding: 1rem;
     display: flex;
     justify-content: left;
-    background: rgb(140,204,129);
     background: rgb(167,209,54);
     background: linear-gradient(0deg, rgba(167,209,54,1) 0%, rgba(47,47,47,1) 100%);
  }
@@ -72,7 +71,7 @@ header {
  }
 
  #section2 {
-    background: linear-gradient(180deg, rgba(86, 135, 125, 0.781) 0%, rgba(140, 204, 129, 0.863) 100%), url(./imagens/imagem_background.jpg); /*Atribuimos antes da imagem uma cor para que fique sobreposta a imagem que está ao lado*/
+   background: linear-gradient(180deg, rgba(168, 209, 54, 0.71) 100%, rgba(47, 47, 47, 0.678) 0%), url(./imagens/imagem_background.jpg); 
    background-position: center; 
    background-attachment: fixed; 
    display: flex;
@@ -99,5 +98,60 @@ header {
  }
 
  #section3 {
-    padding: 5em;
+   background: linear-gradient(180deg, rgba(168, 209, 54, 0.71) 0%, rgba(47, 47, 47, 0.678) 100%), url(./imagens/textura-textil-verde_23-2147729348.jpg); 
+   background-position: center; 
+   background-attachment: fixed; 
+   display: flex;
+   align-items: center; 
+   justify-content: space-evenly;
+   padding: 8em;
  }
+
+ #section3 div{
+   text-align: center;
+   padding: 2em;
+}
+
+#section3 div h1{
+   font-size: 35px;
+   color: white;
+} 
+
+#section3 div p{
+   font-size: 18px;
+   color: white;
+   text-align: center;
+   margin-top: 2em;
+}
+
+#section3 div a button {
+   font-size: 1.2rem;
+   padding: 1rem 2rem;
+   border-radius: 50px;
+   cursor: pointer;
+   border: none;
+   background-color: #525c5a;
+   color: white;
+   transition: background-color 0.5s, color 0.5s;
+   margin-top: 2em;
+}
+
+#section3 a button:hover {
+   background-color: #56877d;
+}
+
+footer { 
+   padding: 5vh; 
+   background-color: rgb(29, 28, 28); 
+   text-align: center; 
+}
+
+#footer-div a {
+   text-decoration: none;
+   color: #8ccc81;
+}
+
+#footer-div a:hover {
+   color: #bade57;
+   transition: 0.5s;
+}

@@ -16,7 +16,7 @@ body {
 }
 
 header { 
-    background-color:#525c5a; 
+    background-color:rgba(47,47,47,1); 
     padding: 10vh; 
 }
 
@@ -29,6 +29,7 @@ header {
 .menu-header > li > a {
     color: #bade57; 
     text-decoration: none;
+    font-weight: 520;
  }
  .menu-header > li > a:hover { 
      color: #8ccc81;
