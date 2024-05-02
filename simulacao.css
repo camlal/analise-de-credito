@@ -127,8 +127,32 @@ header {
     font-size: 1.4rem;
 }
 
+footer { 
+    padding: 5vh; 
+    background-color: rgb(29, 28, 28); 
+    text-align: center; 
+ }
+ 
+ #footer-div a {
+    text-decoration: none;
+    color: #8ccc81;
+ }
+ 
+ #footer-div a:hover {
+    color: #bade57;
+    transition: 0.5s;
+ }
 
-@media screen and (max-width: 767px) {
+ @media screen and (max-width: 1306px){
+    
+ }
+
+
+@media screen and (max-width: 991px) {
+    
+}
+
+ @media screen and (max-width: 767px) {
     .menu-header {
         justify-content: center;
     }
