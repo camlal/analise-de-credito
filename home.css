@@ -87,12 +87,12 @@ header {
 
  #section2 div h1{
     font-size: 35px;
-    color: white;
+    color: black;
  } 
 
  #section2 div p{
     font-size: 18px;
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 2em;
  }
@@ -154,4 +154,17 @@ footer {
 #footer-div a:hover {
    color: #bade57;
    transition: 0.5s;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+   #section1 div{
+      padding: 1em;
+   }
+
+   
 }
