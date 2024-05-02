@@ -46,7 +46,7 @@ nav ul{
 }
 
 #sobremessa{
-    background: linear-gradient(180deg,#1cd81c 8.33%,rgba(23, 224, 39, 0.745)100%),url(Prancheta\ 1.jpg);
+    background: linear-gradient(180deg,#1cd81c 8.33%,rgba(23, 224, 39, 0.745)100%),url(./imagens/Prancheta\ 1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -142,35 +142,21 @@ display: block;
     
 }
 
-footer{
-    padding: 10px;
-    margin: 0;
-    
-}
-
-footer i{
-    margin-left:100px;
-    font-size: 50px;
-    
-    
-}
-
-.rodape-i{
-    color: #0e24e2;
-    font-size: 20px;
-    padding: 30px;
-    margin-left: 21em;
-    border-radius: 0px;
-    
-}
-
-h2{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 40px;
-    color: #a91295;
-    
-}
+footer { 
+    padding: 5vh; 
+    background-color: rgb(29, 28, 28); 
+    text-align: center; 
+ }
+ 
+ #footer-div a {
+    text-decoration: none;
+    color: #8ccc81;
+ }
+ 
+ #footer-div a:hover {
+    color: #bade57;
+    transition: 0.5s;
+ }
 
 
 
